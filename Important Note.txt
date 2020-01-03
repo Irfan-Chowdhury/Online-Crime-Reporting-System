@@ -1,0 +1,5 @@
+OCRS Path in computer-
+
+htdocs / My_University_Project / OCRS / Online_Crime_Reporting_System
+
+(bcz of page speed) 

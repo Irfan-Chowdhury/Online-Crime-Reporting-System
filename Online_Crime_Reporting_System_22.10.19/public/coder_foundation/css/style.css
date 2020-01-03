@@ -1,0 +1,299 @@
+/* -- Navbar -- */
+.navbar{
+    background: #000;
+}
+.navbar .nav-item{
+    padding-left: 1em ;
+}
+#navcolor  li>a:hover{
+  background-color: white;
+  color: #000;
+}
+#navcolor  li>a:active{
+  color: #000;
+}
+.navbar .nav-link{
+    text-transform: uppercase; /*tt:u*/
+}
+
+
+/* -- Carousel -- */
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-img-1{
+    /* background: url('../img/image1.jpeg'); */
+    background: url('/coder_foundation/img/slider/Home-1.jpg');
+    background-size:cover; 
+}
+.carousel-img-2{
+    /* background: url('../img/image2.jpeg'); */
+    background: url('/coder_foundation/img/slider/Home-4.png'); 
+    background-size:cover; 
+}
+.carousel-img-3{
+    /* background: url('../img/image3.jpeg'); */
+	background: url('/coder_foundation/img/slider/Home-3.png'); 
+    background-size:cover; 
+}
+
+/* Home Icon */
+#homeicon .fa{
+    font-size: 50px;
+}
+
+/*Home- Get Started */
+#getstarted{
+    background: url('../img/pc.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+}
+#getstarted .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* HOme Video Section */
+#home-video{
+    background: url('../img/people.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+}
+#home-video .dark-overlay{
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#home-video  .fa{
+    font-size: 50px;
+    color: red;
+}
+
+
+/* Home Photo Gallery */
+#gallery img{
+    min-height: 250px;
+}
+
+
+/* ================  ABOUT US =========================*/
+#page-header{
+    background: url('../img/image2.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+#about-info img{
+    width: 350px;
+    height: 350px;
+}
+#icon-boxes .fa{
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+}
+
+#testimonial .slick-prev:before, .slick-next:before {
+    color: #000;
+}
+
+
+.follow_me{
+    margin-top: 35px;
+  }
+  .follow_me h4{
+    margin: 0 0 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  .follow_me .social_icons ul{
+    margin: 0;
+    padding: 0;
+    list-style: none
+  }
+  
+  .follow_me .social_icons ul li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .follow_me .social_icons ul li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    line-height: 35px;
+    text-align: center;
+    color: #bbbbbb;
+    transition:  .3s;
+  }
+  
+  .follow_me .social_icons ul li a:hover{
+    background: #00b0dc;
+    border: #00b0dc;
+    color: #ffffff;
+    transition: .3s
+  }
+
+
+
+
+
+/* -- ---------------- Recent Work Area start --------------  -- */
+#work_area{
+    padding: 70px 50px;  /*can understand after all work complete*/
+    background: #fff;
+  }
+  /* .section_title{} */
+
+  .works{  /* without this contact araa will come beside with this*/
+    overflow: hidden; 
+  }
+
+  .section_title h2{
+    text-align: center;
+    margin: 0 0 40px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+  }
+  
+  .single_work{
+    width: 31.5%;
+    height: auto;
+    float: left;
+    margin-right: 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+  }
+
+ .single_work:nth-child(3n+0){  /*need to understand*/
+    margin-right: 0;
+  }
+  .work_img{  /* it will understand after .single_work:hover img*/
+    overflow: hidden;
+  }
+  .work_img img{
+    /* width: 100%; */
+    /* height: 100%; */
+	width: 250px; 
+  height: 250px; 
+  /* filter: grayscale(100%); */
+  /* transition: .5s; */
+
+  }
+  .work_content{
+    /* padding: 30px 0px; */
+	padding: 30px 0px;
+    text-align: center;
+  }
+  .work_content h4{
+    margin: 0;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .work_content p{
+    margin: 15px 0;
+    font-size: 14px;
+  }
+  .work_content a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: #00b0dc;
+    padding: 8px 15px;
+    display: inline-block;
+  }
+  .work_content a:hover{
+  color: black;
+  background: transparent;
+  border: 1px solid #bbbbbb;
+  transition: .5s;
+  text-decoration: none
+
+  }
+
+  .single_work:hover img{
+    filter:grayscale(0);
+    transform:scale(1.5);
+    transition:.5s
+  }
+
+  /* -- ---------------- Recent Work Area End ----------------  -- */
+  
+
+
+
+
+
+
+
+
+
+/* ================  Services  ===============  */
+#services-header{
+    background: url('../img/image3.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+/* ================  Services  ===============  */
+#blog-header{
+    background: url('../img/image1.jpeg');
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+/* ================= Copy Right =============== */
+#copyright{
+    background: #000;
+}
+
+
+/* nav-item */
+@media(max-width:767px){
+    .nav-item{
+        padding-left: 0 !important;
+    }
+    #getstarted{
+        min-height: 300px;
+    }
+    #gallery img{
+        padding-bottom:10px ;
+    }
+}
+
+/* Carousel */
+@media(max-width:480px){
+    .carousel h2{
+        font-size: 2.5rem;
+    }
+    #getstarted{
+        min-height: 400px;
+    }
+    
+
+}
